@@ -1,0 +1,81 @@
+<svg width="720" height="620" viewBox="0 0 720 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud architecture illustration</title>
+  <desc id="desc">A modern cloud platform illustration with connected infrastructure nodes and enterprise dashboard panels.</desc>
+  <defs>
+    <linearGradient id="cloudGradient" x1="141" y1="148" x2="573" y2="431" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset="0.48" stop-color="#0066FF"/>
+      <stop offset="1" stop-color="#001F5B"/>
+    </linearGradient>
+    <linearGradient id="panelGradient" x1="190" y1="106" x2="558" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F7FA"/>
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="153" y1="410" x2="335" y2="555" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#00C48C"/>
+    </linearGradient>
+    <filter id="softShadow" x="55" y="44" width="622" height="532" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="22"/>
+      <feGaussianBlur stdDeviation="26"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.121569 0 0 0 0 0.356863 0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="720" height="620" rx="28" fill="#F4F7FA"/>
+  <path d="M86 455C86 355.037 167.037 274 267 274H452C552.411 274 634 355.589 634 456C634 487.48 608.48 513 577 513H141C110.624 513 86 488.376 86 458V455Z" fill="#E9F4FF"/>
+  <circle cx="584" cy="118" r="52" fill="#DDFBFF"/>
+  <circle cx="139" cy="152" r="38" fill="#E6FFF8"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="111" y="91" width="498" height="384" rx="28" fill="url(#panelGradient)"/>
+    <rect x="111.75" y="91.75" width="496.5" height="382.5" rx="27.25" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+
+  <rect x="145" y="128" width="430" height="58" rx="14" fill="#001F5B"/>
+  <circle cx="177" cy="157" r="8" fill="#00C48C"/>
+  <circle cx="205" cy="157" r="8" fill="#00D4FF"/>
+  <circle cx="233" cy="157" r="8" fill="#FFFFFF"/>
+  <rect x="282" y="146" width="244" height="22" rx="11" fill="#153A80"/>
+
+  <path d="M233 342C202.624 342 178 317.376 178 287C178 259.169 198.684 236.156 225.529 232.487C239.185 201.243 270.376 179.5 306.662 179.5C348.137 179.5 383.016 208.069 392.617 246.644C400.835 243.401 409.788 241.62 419.162 241.62C459.391 241.62 492 274.229 492 314.458C492 354.687 459.391 387.296 419.162 387.296H233V342Z" fill="url(#cloudGradient)"/>
+  <path d="M233 342C202.624 342 178 317.376 178 287C178 259.169 198.684 236.156 225.529 232.487C239.185 201.243 270.376 179.5 306.662 179.5C348.137 179.5 383.016 208.069 392.617 246.644C400.835 243.401 409.788 241.62 419.162 241.62C459.391 241.62 492 274.229 492 314.458C492 354.687 459.391 387.296 419.162 387.296H233V342Z" fill="white" fill-opacity="0.08"/>
+
+  <g opacity="0.95">
+    <rect x="248" y="280" width="186" height="24" rx="12" fill="#FFFFFF"/>
+    <rect x="279" y="322" width="124" height="18" rx="9" fill="#DDFBFF"/>
+  </g>
+
+  <path d="M340 387V421" stroke="#0066FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M249 421H431" stroke="#0066FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M249 421V452" stroke="#0066FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M431 421V452" stroke="#0066FF" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="190" y="442" width="118" height="72" rx="16" fill="url(#greenGradient)"/>
+  <rect x="371" y="442" width="118" height="72" rx="16" fill="#001F5B"/>
+  <rect x="221" y="466" width="56" height="8" rx="4" fill="#FFFFFF"/>
+  <rect x="221" y="486" width="38" height="8" rx="4" fill="#E6FFF8"/>
+  <rect x="402" y="466" width="56" height="8" rx="4" fill="#FFFFFF"/>
+  <rect x="402" y="486" width="38" height="8" rx="4" fill="#DDFBFF"/>
+
+  <circle cx="249" cy="421" r="12" fill="#00C48C" stroke="#FFFFFF" stroke-width="6"/>
+  <circle cx="340" cy="421" r="12" fill="#00D4FF" stroke="#FFFFFF" stroke-width="6"/>
+  <circle cx="431" cy="421" r="12" fill="#00C48C" stroke="#FFFFFF" stroke-width="6"/>
+
+  <rect x="520" y="222" width="72" height="118" rx="16" fill="#FFFFFF" stroke="#DDE8F5" stroke-width="2"/>
+  <rect x="538" y="244" width="36" height="8" rx="4" fill="#0066FF"/>
+  <rect x="538" y="268" width="36" height="8" rx="4" fill="#00C48C"/>
+  <rect x="538" y="292" width="36" height="8" rx="4" fill="#00D4FF"/>
+  <circle cx="556" cy="322" r="8" fill="#001F5B"/>
+
+  <rect x="127" y="236" width="72" height="118" rx="16" fill="#FFFFFF" stroke="#DDE8F5" stroke-width="2"/>
+  <rect x="146" y="258" width="34" height="8" rx="4" fill="#001F5B"/>
+  <rect x="146" y="282" width="34" height="8" rx="4" fill="#0066FF"/>
+  <rect x="146" y="306" width="34" height="8" rx="4" fill="#00C48C"/>
+  <circle cx="163" cy="336" r="8" fill="#00D4FF"/>
+</svg>

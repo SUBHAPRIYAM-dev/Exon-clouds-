@@ -1,0 +1,79 @@
+<svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI services illustration</title>
+  <desc id="desc">An enterprise AI platform illustration with neural connections, automation cards, and secure data systems.</desc>
+  <defs>
+    <linearGradient id="brainGradient" x1="265" y1="64" x2="454" y2="254" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset="0.48" stop-color="#0066FF"/>
+      <stop offset="1" stop-color="#001F5B"/>
+    </linearGradient>
+    <linearGradient id="automationGradient" x1="98" y1="94" x2="229" y2="246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C48C"/>
+      <stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+    <linearGradient id="panelGradient" x1="468" y1="82" x2="620" y2="262" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F7FA"/>
+    </linearGradient>
+    <filter id="shadow" x="62" y="34" width="596" height="291" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="23"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.121569 0 0 0 0 0.356863 0 0 0 0.14 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="720" height="360" rx="28" fill="#F4F7FA"/>
+  <circle cx="92" cy="70" r="34" fill="#E6FFF8"/>
+  <circle cx="641" cy="296" r="42" fill="#DDFBFF"/>
+  <path d="M84 250C84 192.562 130.562 146 188 146H532C589.438 146 636 192.562 636 250V257C636 282.405 615.405 303 590 303H130C104.595 303 84 282.405 84 257V250Z" fill="#E9F4FF"/>
+
+  <g filter="url(#shadow)">
+    <rect x="102" y="67" width="516" height="218" rx="28" fill="white"/>
+    <rect x="102.75" y="67.75" width="514.5" height="216.5" rx="27.25" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+
+  <rect x="132" y="101" width="128" height="150" rx="22" fill="url(#automationGradient)"/>
+  <circle cx="171" cy="143" r="20" fill="#FFFFFF"/>
+  <path d="M171 132V154" stroke="#00C48C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M160 143H182" stroke="#00C48C" stroke-width="7" stroke-linecap="round"/>
+  <rect x="158" y="184" width="76" height="9" rx="4.5" fill="#FFFFFF"/>
+  <rect x="158" y="209" width="52" height="9" rx="4.5" fill="#E6FFF8"/>
+
+  <path d="M260 176H302" stroke="#BBD3EE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M418 176H460" stroke="#BBD3EE" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="282" cy="176" r="10" fill="#00D4FF" stroke="#FFFFFF" stroke-width="5"/>
+  <circle cx="438" cy="176" r="10" fill="#00C48C" stroke="#FFFFFF" stroke-width="5"/>
+
+  <g>
+    <path d="M360 86C405.84 86 443 123.16 443 169C443 214.84 405.84 252 360 252C314.16 252 277 214.84 277 169C277 123.16 314.16 86 360 86Z" fill="url(#brainGradient)"/>
+    <path d="M333 132C333 121.507 341.507 113 352 113C362.493 113 371 121.507 371 132V207C371 217.493 362.493 226 352 226C341.507 226 333 217.493 333 207V132Z" fill="#FFFFFF" fill-opacity="0.92"/>
+    <path d="M349 132C349 121.507 357.507 113 368 113C378.493 113 387 121.507 387 132V207C387 217.493 378.493 226 368 226C357.507 226 349 217.493 349 207V132Z" fill="#DDFBFF"/>
+    <path d="M321 153H399" stroke="#001F5B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M321 184H399" stroke="#0066FF" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="322" cy="153" r="10" fill="#00C48C"/>
+    <circle cx="398" cy="153" r="10" fill="#00D4FF"/>
+    <circle cx="322" cy="184" r="10" fill="#00D4FF"/>
+    <circle cx="398" cy="184" r="10" fill="#00C48C"/>
+  </g>
+
+  <rect x="460" y="101" width="128" height="150" rx="22" fill="url(#panelGradient)" stroke="#DDE8F5" stroke-width="2"/>
+  <rect x="490" y="128" width="68" height="10" rx="5" fill="#001F5B"/>
+  <rect x="490" y="154" width="46" height="10" rx="5" fill="#0066FF"/>
+  <rect x="490" y="180" width="68" height="10" rx="5" fill="#00C48C"/>
+  <rect x="490" y="206" width="46" height="10" rx="5" fill="#00D4FF"/>
+  <path d="M557 218L570 231L596 201" stroke="#00C48C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g stroke="#BBD3EE" stroke-width="4" stroke-linecap="round">
+    <path d="M196 251V279"/>
+    <path d="M360 252V279"/>
+    <path d="M524 251V279"/>
+  </g>
+  <circle cx="196" cy="279" r="10" fill="#00C48C" stroke="#FFFFFF" stroke-width="5"/>
+  <circle cx="360" cy="279" r="10" fill="#00D4FF" stroke="#FFFFFF" stroke-width="5"/>
+  <circle cx="524" cy="279" r="10" fill="#001F5B" stroke="#FFFFFF" stroke-width="5"/>
+</svg>

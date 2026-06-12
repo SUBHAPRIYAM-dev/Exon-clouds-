@@ -1,0 +1,74 @@
+<svg width="520" height="420" viewBox="0 0 520 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cybersecurity illustration</title>
+  <desc id="desc">A security shield protecting connected enterprise systems.</desc>
+  <defs>
+    <linearGradient id="shieldGradient" x1="159" y1="77" x2="365" y2="339" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset="0.52" stop-color="#0066FF"/>
+      <stop offset="1" stop-color="#001F5B"/>
+    </linearGradient>
+    <linearGradient id="chipGradient" x1="121" y1="273" x2="261" y2="385" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C48C"/>
+      <stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+    <filter id="shadow" x="47" y="30" width="426" height="349" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="22"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.121569 0 0 0 0 0.356863 0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="520" height="420" rx="24" fill="#F4F7FA"/>
+  <circle cx="90" cy="88" r="36" fill="#E6FFF8"/>
+  <circle cx="440" cy="335" r="44" fill="#DDFBFF"/>
+  <path d="M78 282C78 224.562 124.562 178 182 178H350C407.438 178 454 224.562 454 282V302C454 327.405 433.405 348 408 348H124C98.5949 348 78 327.405 78 302V282Z" fill="#E9F4FF"/>
+
+  <g stroke="#BBD3EE" stroke-width="3" stroke-linecap="round">
+    <path d="M137 151H86"/>
+    <path d="M138 269H86"/>
+    <path d="M383 151H434"/>
+    <path d="M382 269H434"/>
+    <path d="M260 72V43"/>
+    <path d="M260 358V383"/>
+  </g>
+
+  <g>
+    <circle cx="86" cy="151" r="13" fill="#FFFFFF" stroke="#0066FF" stroke-width="5"/>
+    <circle cx="86" cy="269" r="13" fill="#FFFFFF" stroke="#00C48C" stroke-width="5"/>
+    <circle cx="434" cy="151" r="13" fill="#FFFFFF" stroke="#00D4FF" stroke-width="5"/>
+    <circle cx="434" cy="269" r="13" fill="#FFFFFF" stroke="#0066FF" stroke-width="5"/>
+    <circle cx="260" cy="43" r="13" fill="#FFFFFF" stroke="#00C48C" stroke-width="5"/>
+    <circle cx="260" cy="383" r="13" fill="#FFFFFF" stroke="#001F5B" stroke-width="5"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M260 68L383 115V201.752C383 264.586 335.009 321.088 260 352C184.991 321.088 137 264.586 137 201.752V115L260 68Z" fill="url(#shieldGradient)"/>
+    <path d="M260 91.8579L360 130.122V201.012C360 252.495 321.186 298.59 260 325.075C198.814 298.59 160 252.495 160 201.012V130.122L260 91.8579Z" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="3"/>
+  </g>
+
+  <rect x="197" y="183" width="126" height="92" rx="20" fill="#FFFFFF"/>
+  <path d="M222 183V156C222 134.461 238.987 117 260 117C281.013 117 298 134.461 298 156V183" stroke="#FFFFFF" stroke-opacity="0.92" stroke-width="18" stroke-linecap="round"/>
+  <path d="M222 183V156C222 134.461 238.987 117 260 117C281.013 117 298 134.461 298 156V183" stroke="#001F5B" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="260" cy="224" r="17" fill="#0066FF"/>
+  <path d="M260 239V255" stroke="#0066FF" stroke-width="9" stroke-linecap="round"/>
+
+  <rect x="102" y="298" width="136" height="68" rx="16" fill="url(#chipGradient)"/>
+  <rect x="128" y="321" width="84" height="8" rx="4" fill="#FFFFFF"/>
+  <rect x="128" y="342" width="51" height="8" rx="4" fill="#E6FFF8"/>
+
+  <rect x="297" y="298" width="136" height="68" rx="16" fill="#FFFFFF" stroke="#DDE8F5" stroke-width="2"/>
+  <rect x="323" y="321" width="84" height="8" rx="4" fill="#001F5B"/>
+  <rect x="323" y="342" width="51" height="8" rx="4" fill="#0066FF"/>
+
+  <g opacity="0.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+    <path d="M187 130L210 140"/>
+    <path d="M333 130L310 140"/>
+    <path d="M178 227L199 218"/>
+    <path d="M342 227L321 218"/>
+  </g>
+</svg>

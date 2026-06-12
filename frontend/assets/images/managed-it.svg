@@ -1,0 +1,79 @@
+<svg width="520" height="420" viewBox="0 0 520 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Managed IT servers illustration</title>
+  <desc id="desc">Enterprise server racks with monitoring, support, and connected infrastructure nodes.</desc>
+  <defs>
+    <linearGradient id="serverGradient" x1="126" y1="87" x2="391" y2="337" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F7FA"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="137" y1="112" x2="374" y2="305" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset="0.52" stop-color="#0066FF"/>
+      <stop offset="1" stop-color="#001F5B"/>
+    </linearGradient>
+    <linearGradient id="supportGradient" x1="321" y1="73" x2="439" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C48C"/>
+      <stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+    <filter id="shadow" x="55" y="50" width="410" height="335" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="23"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.121569 0 0 0 0 0.356863 0 0 0 0.14 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="520" height="420" rx="24" fill="#F4F7FA"/>
+  <circle cx="95" cy="323" r="48" fill="#E6FFF8"/>
+  <circle cx="423" cy="90" r="42" fill="#DDFBFF"/>
+  <path d="M83 272C83 219.533 125.533 177 178 177H342C394.467 177 437 219.533 437 272V300C437 325.405 416.405 346 391 346H129C103.595 346 83 325.405 83 300V272Z" fill="#E9F4FF"/>
+
+  <g filter="url(#shadow)">
+    <rect x="108" y="79" width="304" height="270" rx="28" fill="url(#serverGradient)"/>
+    <rect x="108.75" y="79.75" width="302.5" height="268.5" rx="27.25" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+
+  <rect x="139" y="112" width="242" height="54" rx="14" fill="#001F5B"/>
+  <rect x="139" y="184" width="242" height="54" rx="14" fill="#FFFFFF" stroke="#DDE8F5" stroke-width="2"/>
+  <rect x="139" y="256" width="242" height="54" rx="14" fill="#FFFFFF" stroke="#DDE8F5" stroke-width="2"/>
+
+  <circle cx="166" cy="139" r="8" fill="#00C48C"/>
+  <circle cx="191" cy="139" r="8" fill="#00D4FF"/>
+  <rect x="224" y="130" width="106" height="8" rx="4" fill="#FFFFFF"/>
+  <rect x="224" y="147" width="68" height="8" rx="4" fill="#5E80BE"/>
+
+  <circle cx="166" cy="211" r="8" fill="#0066FF"/>
+  <circle cx="191" cy="211" r="8" fill="#00C48C"/>
+  <rect x="224" y="202" width="106" height="8" rx="4" fill="#001F5B"/>
+  <rect x="224" y="219" width="68" height="8" rx="4" fill="#0066FF"/>
+
+  <circle cx="166" cy="283" r="8" fill="#00D4FF"/>
+  <circle cx="191" cy="283" r="8" fill="#00C48C"/>
+  <rect x="224" y="274" width="106" height="8" rx="4" fill="#001F5B"/>
+  <rect x="224" y="291" width="68" height="8" rx="4" fill="#00C48C"/>
+
+  <rect x="342" y="126" width="16" height="26" rx="8" fill="#00D4FF"/>
+  <rect x="342" y="198" width="16" height="26" rx="8" fill="#0066FF"/>
+  <rect x="342" y="270" width="16" height="26" rx="8" fill="#00C48C"/>
+
+  <path d="M260 349V373" stroke="#0066FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M179 373H341" stroke="#0066FF" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="179" cy="373" r="11" fill="#00C48C" stroke="#FFFFFF" stroke-width="5"/>
+  <circle cx="260" cy="373" r="11" fill="#00D4FF" stroke="#FFFFFF" stroke-width="5"/>
+  <circle cx="341" cy="373" r="11" fill="#001F5B" stroke="#FFFFFF" stroke-width="5"/>
+
+  <rect x="311" y="56" width="118" height="104" rx="22" fill="url(#supportGradient)"/>
+  <path d="M346 118V106C346 91.641 357.641 80 372 80C386.359 80 398 91.641 398 106V118" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M337 118C337 138.435 352.446 153 372 153C391.554 153 407 138.435 407 118" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="372" cy="112" r="13" fill="#001F5B"/>
+
+  <rect x="78" y="233" width="108" height="82" rx="18" fill="#FFFFFF" stroke="#DDE8F5" stroke-width="2"/>
+  <path d="M104 277L122 293L158 253" stroke="url(#accentGradient)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M186 275H214" stroke="#BBD3EE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M307 108H331" stroke="#BBD3EE" stroke-width="4" stroke-linecap="round"/>
+</svg>

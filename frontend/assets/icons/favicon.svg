@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ExonClouds favicon</title>
+  <desc id="desc">ExonClouds brand mark with a navy, blue, cyan, and green enterprise cloud style.</desc>
+  <defs>
+    <linearGradient id="brandGradient" x1="8" y1="7" x2="58" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#001F5B"/>
+      <stop offset="0.48" stop-color="#0066FF"/>
+      <stop offset="0.78" stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#00C48C"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#brandGradient)"/>
+  <path d="M18 41V23H46V28H24V30H42V35H24V36H46V41H18Z" fill="#FFFFFF"/>
+  <path d="M19 47C19 43.134 22.134 40 26 40H43C46.314 40 49 42.686 49 46C49 49.314 46.314 52 43 52H25C21.686 52 19 49.314 19 46V47Z" fill="#FFFFFF" fill-opacity="0.2"/>
+</svg>
